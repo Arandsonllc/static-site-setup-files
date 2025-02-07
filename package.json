@@ -4,12 +4,12 @@
   "description": "this file is design to ensure we dont start any project from start",
   "main": "index.html",
   "scripts": {
-    "watch:sass": "sass sass/main.scss css/style.css -w",
+    "watch:sass": "sass sass/main.scss css/main.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
-    "compile:sass": "sass sass/main.scss css/style.comp.css",
-    "prefix:css": "postcss css/style.comp.css --use autoprefixer  -o css/style.prefix.css",
-    "compress:css": "sass css/style.prefix.css css/style.css --style compressed",
+    "compile:sass": "sass sass/main.scss css/main.comp.css",
+    "prefix:css": "postcss css/main.comp.css --use autoprefixer  -o css/main.prefix.css",
+    "compress:css": "sass css/main.prefix.css css/main.css --style compressed",
     "build": "node js/deploy.js",
     "build:css": "npm-run-all compile:sass prefix:css compress:css build"
   },

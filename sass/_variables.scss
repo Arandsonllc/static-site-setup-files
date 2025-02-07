@@ -1,0 +1,112 @@
+//GREY COLORS
+$color-grey-1: #888888;
+$color-grey-2: #767676;
+$color-grey-3: #6f6f6f;
+$color-grey-4: #555555;
+$color-grey-5: #333333;
+
+//BASE COLORS
+$color-white: #fff;
+$color-black: #000;
+$color-grey: #808080;
+
+//BRAND COLORS
+$color-primary: #04328c;
+$color-secondary: #79d991;
+$color-tertiary: #d95a11;
+
+// DARK SHADES
+$color-grey-dark-1: darken($color-grey, 10%);
+$color-grey-dark-2: darken($color-grey, 20%);
+$color-grey-dark-3: darken($color-grey, 30%);
+$color-grey-dark-4: darken($color-grey, 40%);
+$color-grey-dark-5: darken($color-grey, 50%);
+$color-grey-dark-6: darken($color-grey, 60%);
+$color-grey-dark-7: darken($color-grey, 70%);
+$color-grey-dark-8: darken($color-grey, 80%);
+$color-grey-dark-9: darken($color-grey, 90%);
+$color-grey-dark-10: darken($color-grey, 100%);
+
+// LIGHT SHADES
+$color-grey-light-1: lighten($color-grey, 10%);
+$color-grey-light-2: lighten($color-grey, 20%);
+$color-grey-light-3: lighten($color-grey, 30%);
+$color-grey-light-4: lighten($color-grey, 40%);
+$color-grey-light-5: lighten($color-grey, 50%);
+$color-grey-light-6: lighten($color-grey, 60%);
+$color-grey-light-7: lighten($color-grey, 70%);
+$color-grey-light-8: lighten($color-grey, 80%);
+$color-grey-light-9: lighten($color-grey, 90%);
+$color-grey-light-10: lighten($color-grey, 100%);
+
+// DARK SHADES
+$color-primary-dark-1: darken($color-primary, 10%);
+$color-primary-dark-2: darken($color-primary, 20%);
+$color-primary-dark-3: darken($color-primary, 30%);
+$color-primary-dark-4: darken($color-primary, 40%);
+$color-primary-dark-5: darken($color-primary, 50%);
+$color-primary-dark-6: darken($color-primary, 60%);
+$color-primary-dark-7: darken($color-primary, 70%);
+$color-primary-dark-8: darken($color-primary, 80%);
+$color-primary-dark-9: darken($color-primary, 90%);
+$color-primary-dark-10: darken($color-primary, 100%);
+
+// LIGHT SHADES
+$color-primary-light-1: lighten($color-primary, 10%);
+$color-primary-light-2: lighten($color-primary, 20%);
+$color-primary-light-3: lighten($color-primary, 30%);
+$color-primary-light-4: lighten($color-primary, 40%);
+$color-primary-light-5: lighten($color-primary, 50%);
+$color-primary-light-6: lighten($color-primary, 60%);
+$color-primary-light-7: lighten($color-primary, 70%);
+$color-primary-light-8: lighten($color-primary, 80%);
+$color-primary-light-9: lighten($color-primary, 90%);
+$color-primary-light-10: lighten($color-primary, 100%);
+
+// DARK SHADES
+$color-secondary-dark-1: darken($color-secondary, 10%);
+$color-secondary-dark-2: darken($color-secondary, 20%);
+$color-secondary-dark-3: darken($color-secondary, 30%);
+$color-secondary-dark-4: darken($color-secondary, 40%);
+$color-secondary-dark-5: darken($color-secondary, 50%);
+$color-secondary-dark-6: darken($color-secondary, 60%);
+$color-secondary-dark-7: darken($color-secondary, 70%);
+$color-secondary-dark-8: darken($color-secondary, 80%);
+$color-secondary-dark-9: darken($color-secondary, 90%);
+$color-secondary-dark-10: darken($color-secondary, 100%);
+
+// LIGHT SHADES
+$color-secondary-light-1: lighten($color-secondary, 10%);
+$color-secondary-light-2: lighten($color-secondary, 20%);
+$color-secondary-light-3: lighten($color-secondary, 30%);
+$color-secondary-light-4: lighten($color-secondary, 40%);
+$color-secondary-light-5: lighten($color-secondary, 50%);
+$color-secondary-light-6: lighten($color-secondary, 60%);
+$color-secondary-light-7: lighten($color-secondary, 70%);
+$color-secondary-light-8: lighten($color-secondary, 80%);
+$color-secondary-light-9: lighten($color-secondary, 90%);
+$color-secondary-light-10: lighten($color-secondary, 100%);
+
+// DARK SHADES
+$color-tertiary-dark-1: darken($color-tertiary, 10%);
+$color-tertiary-dark-2: darken($color-tertiary, 20%);
+$color-tertiary-dark-3: darken($color-tertiary, 30%);
+$color-tertiary-dark-4: darken($color-tertiary, 40%);
+$color-tertiary-dark-5: darken($color-tertiary, 50%);
+$color-tertiary-dark-6: darken($color-tertiary, 60%);
+$color-tertiary-dark-7: darken($color-tertiary, 70%);
+$color-tertiary-dark-8: darken($color-tertiary, 80%);
+$color-tertiary-dark-9: darken($color-tertiary, 90%);
+$color-tertiary-dark-10: darken($color-tertiary, 100%);
+
+// LIGHT SHADES
+$color-tertiary-light-1: lighten($color-tertiary, 10%);
+$color-tertiary-light-2: lighten($color-tertiary, 20%);
+$color-tertiary-light-3: lighten($color-tertiary, 30%);
+$color-tertiary-light-4: lighten($color-tertiary, 40%);
+$color-tertiary-light-5: lighten($color-tertiary, 50%);
+$color-tertiary-light-6: lighten($color-tertiary, 60%);
+$color-tertiary-light-7: lighten($color-tertiary, 70%);
+$color-tertiary-light-8: lighten($color-tertiary, 80%);
+$color-tertiary-light-9: lighten($color-tertiary, 90%);
+$color-tertiary-light-10: lighten($color-tertiary, 100%);

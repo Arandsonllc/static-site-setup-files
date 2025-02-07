@@ -1,0 +1,14 @@
+// IMPORT ALL SCSS FILES HERE Exapmle: @import 'components/_buttons';
+
+@import "mixins";
+@import "variables";
+
+@import "animations";
+@import "base";
+
+@import "button";
+@import "header";
+@import "footer";
+
+@import "home";
+@import "redirect";
